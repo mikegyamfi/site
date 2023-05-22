@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.hero-section{
+    height: auto;
+    background-image: url("https://good-nature-blog-uploads.s3.amazonaws.com/uploads/2022/01/good-nature-homepage-hero_2-scaled.jpg");
+    background-size: 100%;
+}
+
+.hero-content{
+    width: 50%;
+    padding: 100px 60px;
+}
+
+.hero-heading{
+    margin-top: 0;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+}
+
+.btn{
+    padding: 15px 30px;
+    border: 2px solid white;
+    border-radius: 7px;
+    color: green;
+    text-decoration: none;
+    background-color: white;
+    transition: 0.3s all ease-in-out;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    transition: 0.3s all ease-in-out;
+}
